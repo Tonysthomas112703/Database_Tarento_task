@@ -1,11 +1,13 @@
 # Database_Tarento_task
 
 DATABASE TASKS 
-Task 1:
+<br>Task 1:
+
 1.Create an ER diagram for 
-1.Hospital management system – RIT 
-2.School managemnet system - NSS
-3.Employee Management system - GEC
+Hospital management system – RIT 
+School managemnet system - NSS
+Employee Management system - GEC
+
 2.Setup the Postgre on your machine and create a DB.
 3.Add tables respective to ER diagrams 
 4.Add data to each table with minimum of 100 rows. 
