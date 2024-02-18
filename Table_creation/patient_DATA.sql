@@ -1,9 +1,9 @@
 create table patient_DATA (
-	PID VARCHAR(50),
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
-	Gender VARCHAR(50),
-	DOB DATE,
+	PID VARCHAR(50) NOT NULL PRIMARY KEY ,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	Gender VARCHAR(50) ,
+	DOB DATE NOT NULL,
 	PhNo VARCHAR(50)
 );
 insert into patient_DATA (PID, first_name, last_name, Gender, DOB, PhNo) values ('9RQ8UG6ND47', 'Mackenzie', 'Ferre', 'Male', '05-04-1921', '367-142-6037');
