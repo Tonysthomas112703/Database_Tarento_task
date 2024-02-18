@@ -1,8 +1,8 @@
 create table Medical_Rec (
-	REC_ID VARCHAR(50),
-	Date DATE,
-	Health_Issue VARCHAR(50),
-	PID VARCHAR(50)
+	REC_ID VARCHAR(50) not null,
+	Date DATE not null,
+	Health_Issue VARCHAR(50) not null,
+	PID VARCHAR(50) references patient_DATA(PID)
 );
 insert into Medical_Rec (REC_ID, Date, Health_Issue, PID) values ('36987-2789', '14-02-2013', 'Disloc tarsometatars-cl', '6VE3T27MX32');
 insert into Medical_Rec (REC_ID, Date, Health_Issue, PID) values ('47335-923', '26-01-2017', 'Gu TB NOS-oth test', '5PM4TE0KU69');
